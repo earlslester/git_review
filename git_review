@@ -47,4 +47,16 @@ $ git diff HEAD~2 text.txt
  $ git checkout HEAD test.txt   (goes back to previous version)
 
  nano .gitignore
- (files listed in gitignore are ignored by git (duh))
+ (files listed in gitignore are untracked/ignored by git (duh))
+
+ (GITHUB)
+
+ $ git remote add origin URL
+
+ (have nick-named remote repository origin)
+ (github can generate URL)
+
+ $ git remote origin -v (v is for verbose)
+
+$ git push origin master   (add changes to remote)
+$ git pull origin master    (take changes from remote)
