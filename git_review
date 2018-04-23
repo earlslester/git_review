@@ -28,7 +28,7 @@ $ cat test.txt    (to read)
 
 $ git add test.txt  (sends test.txt to staging area)
 
-$ git commit        (makes staged items permanent)
+$ git commit        (makes staged items permanently stored in local repository)
 (or)
 $ git commit -m "message indicating changes"
 
