@@ -40,5 +40,11 @@ $ git show
 
 $ git log
 
-$ HEAD is most recent commit
-$ HEAD~1 = penultimate, etc.
+$ git diff HEAD~2 text.txt
+ (HEAD is most recent commit; HEAD~1 = penultimate, etc.)
+ (can alse use first few digits of commit ID)
+
+ $ git checkout HEAD test.txt   (goes back to previous version)
+
+ nano .gitignore
+ (files listed in gitignore are ignored by git (duh))
