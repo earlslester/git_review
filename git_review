@@ -30,10 +30,15 @@ $ git add test.txt  (sends test.txt to staging area)
 
 $ git commit        (makes staged items permanently stored in local repository)
 (or)
-$ git commit -m "message indicating changes"
+$ git commit -m "log message indicating changes"
 
 $ git diff
 (or)
 $ git diff --staged
+(or)
+$ git show
 
 $ git log
+
+$ HEAD is most recent commit
+$ HEAD~1 = penultimate, etc.
