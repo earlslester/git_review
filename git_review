@@ -1,0 +1,39 @@
+Git Review Notes:
+
+User: esles
+email: lesteres@utas.edu.au
+
+Basic How To's:
+
+$ git config --global user.name "name"
+
+$ git config -h (config commands)
+$ git config -help (git manual)
+
+$ mkdir     (make directory)
+$ cd        (change directory)
+            (now in current directory)
+
+$ git init    (create repository (hidden storage area))
+$ ls -a       (list -a show all)
+$ pwd         (present working directory)
+$ rm          (remove)
+
+$ git status
+
+(if using in-built nano text editor say)
+$ nano test.txt   (to write)
+$ cat test.txt    (to read)
+
+
+$ git add test.txt  (sends test.txt to staging area)
+
+$ git commit        (makes staged items permanent)
+(or)
+$ git commit -m "message indicating changes"
+
+$ git diff
+(or)
+$ git diff --staged
+
+$ git log
